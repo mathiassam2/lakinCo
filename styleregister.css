@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+
+	font-family: 'Bodoni Moda', serif;
+	font-size: 120%;
+	background: #fff;
+}
+
+.header{
+	width: 30%;
+	margin: 70px auto 0;
+	color: #fff;
+	background: #ff523b;
+	text-align: center;
+	border: 1px solid #b0c4de;
+	border-radius: 10px 10px 0 0;
+	border-bottom: none;
+	
+	
+	padding: 20px;
+	
+	border-radius: 30px 30px 0 0;
+}
+
+form{
+	width: 30%;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #b0c4de;
+	background: #fff;
+	border-radius: 0 0 30px 30px;
+}
+
+.input-group{
+	margin: 10px 0 10px 0;
+}
+
+.input-group label{
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+
+.input-group input{
+	height: 30px;
+	width: 90%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+
+.btn{
+	padding: 10px;
+	font-size: 15px;
+	color: #fff;
+	background: #ff523b;
+	border: none;
+	border-radius: 5px;
+}
+
+.error{
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #a94442;
+	color: #a94442; 
+	background: #f2dede;
+	border-radius: 5px;
+	text-align: left;
+}

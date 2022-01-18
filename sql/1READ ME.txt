@@ -1,0 +1,23 @@
+IN PHPMYADMIN
+
+[DATABASE] -> [importdatabase]
+feedbacksystem -> feedbackss.sql
+productlakin -> productlakin.sql
+registration -> users.sql
+
+in user table:
+add new column "role"
+type: varchar(255)
+Null: tick/yes
+Default: "user"
+
+add new record:
+username: admin
+email: admin@admin.com
+password: admin404
+md5 password: 734d5b897d3766ad8ad3cce6143f9009
+---------
+OR
+drop your users table and re-import the users.sql
+
+i updated the users.sql
